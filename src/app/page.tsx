@@ -120,7 +120,7 @@ export default function Home() {
           <div className="mx-auto">
             <div className="w-40 h-40 rounded-full bg-gradient-to-tr from-indigo-600 to-pink-500 p-1 shadow-xl">
               <Image
-                src="/foto1.png"
+                src="/foto 1.png"
                 alt="Profile big"
                 width={200}
                 height={200}

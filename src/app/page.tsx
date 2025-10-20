@@ -164,7 +164,7 @@ export default function Home() {
             <h3 className="text-3xl font-semibold bg-gradient-to-r from-purple-400 via-pink-400 to-orange-300 bg-clip-text text-transparent">
               Projects
             </h3>
-            <span className="text-sm text-gray-400">Some of my best creations</span>
+            <span className="text-sm text-gray-400">Some of my best creations,FAKE</span>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

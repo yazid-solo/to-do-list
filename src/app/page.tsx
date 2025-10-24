@@ -1,3 +1,5 @@
+"Use client";
+
 import Image from "next/image";
 import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from "react-icons/fa";
 import { RiInstagramLine } from "react-icons/ri";
@@ -9,6 +11,7 @@ import {
   SiNextdotjs,
   SiTailwindcss,
 } from "react-icons/si";
+import Navbar from "./components/Navbar";         
 
 export default function Home() {
   const projects = [
@@ -35,6 +38,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-black via-slate-900 to-gray-900 text-white px-6 py-12">
       <div className="max-w-5xl mx-auto">
+        <Navbar />
+        
         {/* HEADER */}
         <header className="flex items-center justify-between mb-12">
           <div className="flex items-center gap-4">
@@ -81,7 +86,7 @@ export default function Home() {
             <a href="#" aria-label="linkedin" className="p-2 rounded-md hover:bg-white/5">
               <FaLinkedin />
             </a>
-            <a href="mailto:muhzee16@gmail.com" aria-label="email" className="p-2 rounded-md hover:bg-white/5">
+            <a href="emailto:muhzee16@gmail.com" aria-label="email" className="p-2 rounded-md hover:bg-white/5">
               <FaEnvelope />
             </a>
           </div>
@@ -109,7 +114,7 @@ export default function Home() {
               </a>
 
               <a
-                href="#projects"
+                href="/projects"
                 className="inline-block px-6 py-3 border border-white/10 rounded-lg text-sm hover:bg-white/5 transition"
               >
                 See Projects
